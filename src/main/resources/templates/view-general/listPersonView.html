@@ -28,12 +28,12 @@
             </thead>
             <tbody>
             <tr th:each="persona : ${personas}">
-                <td th:text="${persona.idPerson}">x</td>
+                <td th:text="${persona.id}">x</td>
                 <td th:text="${persona.dateRegister}">x</td>
                 <td th:text="${persona.documentId}">x</td>
                 <td th:text="${persona.name}">x</td>
                 <td th:text="${persona.working}">x</td>
-                <td th:text="${persona.modality.nameModality}">x</td>
+                <td th:text="${persona.modality.name}">x</td>
             </tr>
             </tbody>
         </table>
